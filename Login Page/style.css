@@ -1,0 +1,98 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: arial;
+}
+.login {
+    width: 800px;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 40px;
+    box-shadow: 2px 2px 25px black;
+    border-radius: 20px;
+}
+.login>form {
+    flex: 1;
+    /* border: 1px solid red; */
+}
+.login>form>section {
+    width: 300px;
+    /* border: 1px solid orange; */
+    text-align: center;
+}
+/* ------------------------------------------------------- */
+.logins {
+    font-size: 60px;
+    font-family: arial black;
+    margin-top: 50px;
+} 
+/* ------------------------------------------------------- */
+.icon {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.icon ul {
+    width: 110px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.icon ul li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border-radius: 50%;
+    background-color: rgb(253, 252, 252);
+    border: 1px solid lightgray;
+    margin: 2px;
+}
+.icon ul li a{
+    list-style-type: none;
+    color: black;
+    font-size: 30px;
+}
+/* ------------------------------------------------------------------ */
+.input {
+    /* width: 350px; */
+    padding-bottom: 30px;
+}
+.input input {
+    width: 80%;
+    height: 35px;
+    margin: 5px 0px 5px 0px;
+    background-color: rgb(234, 232, 232);
+    border: none;
+}
+ /* ----------------------------------------------------------------- */
+ .login>.box1>button {
+    width: 120px;
+    height: 40px;
+    border-radius: 18px;
+    /* color: white; */
+    background: linear-gradient(rgb(255, 140, 0),rgb(255, 30, 0),rgb(46, 1, 9));
+    display: block;
+    margin-top: 18px;
+    border: none;
+ }
+ .login>.box1>button>a {
+    text-decoration: none;
+    color: white;
+ }
+ /* ==============================box2================================ */
+ .box2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(255, 140, 0),rgb(255, 30, 0),rgb(46, 1, 9));
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+ }
+ .box2 h1 {
+    font-size: 30px;
+    margin-top: 200px;
+ }
+ .box2 section:last-child {
+    margin-top: 20px;
+ }
